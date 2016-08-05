@@ -3,11 +3,11 @@ app.config(function($routeProvider) {
     .when("/", {
         templateUrl : "/views/Routes/main.html"
     })
-    .when("/red", {
-        templateUrl : "red.htm"
+    .when("/Fourm", {
+        templateUrl : "/views/Routes/Fourm.html"
     })
-    .when("/green", {
-        templateUrl : "green.htm"
+    .when("/Fourm/Topic", {
+        templateUrl : "/views/Routes/Topic.html"
     })
     .when("/blue", {
         templateUrl : "blue.htm"
